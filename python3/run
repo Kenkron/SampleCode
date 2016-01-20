@@ -1,0 +1,26 @@
+#Python files are executed with an interpreter in the form
+#[interpreter] [script] [arg1] [arg2]...
+
+#HelloWorld
+python3 HelloWorld.py
+
+#TowerOfHanoi
+python3 TowerOfHanoi.py 3
+
+#SortFile
+python3 SortFile.py
+
+#In Unix, files that begin with a shebang (`#!`) can specify their
+#interpreter automatically, and can sometimes be executed directly
+#[script] [arg1] [arg2]...
+#This method will fail if the path after the shebang is wrong
+#These scripts all have the shebang `#!/usr/bin/env python3`
+
+#HelloWorld
+python3 HelloWorld.py
+
+#TowerOfHanoi
+python3 TowerOfHanoi.py 3
+
+#SortFile
+./SortFile.py

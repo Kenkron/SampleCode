@@ -3,6 +3,8 @@ Samples
 
 A set of example programs and build/execute scripts for different languages. Programs written in different languages will work the same. These programs are meant to demonstrate basic funtionality for reference.
 
+Each language should be in its own folder. This folder should include source and resources for all examples.  It should contain a file named `run` which contains the commands for running the examples, and a file named `makefile`, which should be a build script. A build script is not required for languages that are not typically compiled.  Comments in the run file should be commented with #, such that they execute in bash (this is for clarity; run files should not be designed specifically for execution).
+
 
 HelloWorld
 ----------
@@ -14,7 +16,7 @@ Provides the following output:
     Hello World
 
 
-TowerOfHenoi
+TowerOfHanoi
 ------------
 
 This is a classic recursive program, and demonstrates input arguments, function declarations, and simple variable manipulation.
@@ -72,6 +74,9 @@ And the following output file (sorted.txt):
 
 
 TODO:
+ * Be thorough, but brief
+ * Do this in C
+ * Do this in Java
  * Something with random numbers
  * Something with third party libraries
  * Something with Structures
